@@ -5,6 +5,7 @@
 
 body {
     margin: 0px;
+    padding: 0px;
 }
 
 
@@ -29,14 +30,17 @@ header p {
 }
 
 main {
-    padding: 20px;
+    background-color: white;
+    padding: 0px;
+    background-size: auto;
 }
+
 main p {
     font-family: 'Sriracha', cursive;
     font-size: 2.5em;
     line-height: 50px;
-    margin-left: 5%;
-}
+    margin-left: 50px;
+} 
 
 
 div#par1 {
@@ -44,9 +48,22 @@ div#par1 {
     
 }
 
+
+
 div#par2 {
+    color: white;
     background-image: url(imagens/background001.jpg);
-    background-size: 800px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left, top;
+    background-attachment: fixed;
+    
+}
+
+div#par2 > p {
+    background-color: rgba(0, 0, 0, 0.445);  
+    
+
 }
 
 div#par3 {
