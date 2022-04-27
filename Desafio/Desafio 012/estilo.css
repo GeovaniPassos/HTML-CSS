@@ -6,21 +6,24 @@
 body {
     margin: 0px;
     padding: 0px;
+    height: auto;
 }
 
 
 header {
     background-color: black;
+    background-size: 100vh;
     padding: 20px;
+    position: relative;
 }
 
 
 header h1{
     font-family: 'Passion One', cursive;
     color: white;
-    font-size: 4em;
+    font-size: 6em;
     text-align: center;
-
+    font-weight: normal;
 }
 
 header p {
@@ -37,20 +40,11 @@ main {
 
 main p {
     font-family: 'Sriracha', cursive;
-    font-size: 2.5em;
-    line-height: 50px;
-    margin-left: 50px;
+    font-size: 2em;
+    margin: 70px 50px;
 } 
 
-
-div#par1 {
-    background-color: white;
-    
-}
-
-
-
-div#par2 {
+div.par2 {
     color: white;
     background-image: url(imagens/background001.jpg);
     background-size: 100%;
@@ -60,13 +54,13 @@ div#par2 {
     
 }
 
-div#par2 > p {
+div.par2 > p {
     background-color: rgba(0, 0, 0, 0.445);  
+   
     
-
 }
 
-div#par3 {
+div.par3 {
     background-color: white;
 }
 
