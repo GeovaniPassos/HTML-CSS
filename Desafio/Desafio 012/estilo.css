@@ -6,74 +6,42 @@
 body {
     margin: 0px;
     padding: 0px;
-    height: auto;
+    background-color: white;
+    position: relative;
 }
 
 
 header {
     background-color: black;
-    background-size: 100vh;
-    padding: 20px;
-    position: relative;
+    position: relative; 
+    background-attachment: fixed;
 }
 
 
 header h1{
     font-family: 'Passion One', cursive;
-    color: white;
     font-size: 6em;
+    color: white; 
     text-align: center;
     font-weight: normal;
+    position: relative;
 }
 
 header p {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     text-align: center;
+    position: relative;
 }
 
-main {
-    background-color: white;
-    padding: 0px;
-    background-size: auto;
-}
-
-main p {
+#par2 {
     font-family: 'Sriracha', cursive;
-    font-size: 2em;
-    margin: 70px 50px;
-} 
-
-div.par2 {
     color: white;
     background-image: url(imagens/background001.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: left, top;
     background-attachment: fixed;
-    
-}
-
-div.par2 > p {
-    background-color: rgba(0, 0, 0, 0.445);  
-   
-    
-}
-
-div.par3 {
-    background-color: white;
-}
-
-div#par4 {
-    background-color: white;
-}
-
-div#par5 {
-    background-color: white;
-}
-
-footer {
-    background-color: black;
     
 }
 
