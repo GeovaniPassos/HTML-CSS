@@ -5,50 +5,21 @@
 
 body {
     margin: 0px;
-    padding: 0px;
-    background-color: white;
-    position: relative;
+    padding: 0px; 
 }
 
 
 header {
     background-color: black;
-    position: relative; 
     background-attachment: fixed;
+    background-size: 300vh;
 }
 
 
-header h1{
+h1{
     font-family: 'Passion One', cursive;
-    font-size: 6em;
-    color: white; 
+    font-size: 10vw;
     text-align: center;
     font-weight: normal;
-    position: relative;
-}
 
-header p {
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    text-align: center;
-    position: relative;
-}
-
-#par2 {
-    font-family: 'Sriracha', cursive;
-    color: white;
-    background-image: url(imagens/background001.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: left, top;
-    background-attachment: fixed;
-    
-}
-
-footer p {
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    margin: 0px;
 }
