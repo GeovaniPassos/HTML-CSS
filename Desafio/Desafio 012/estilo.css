@@ -41,33 +41,64 @@ header a {
     text-decoration: none;
 }
 
-main {
-    font-family: var(--font-artigo);
-    font-size: 3.5vw; 
-    padding: 10px;
+section {
+    padding: 10vw 6vw;
+    margin: 40px 0px;
 }
 
-section {
-    padding: 10vw 5vw;
+section > p {
+    font-family: var(--font-artigo);
+    font-size: 3.5vw; 
+    line-height: 2.1em;
 }
 
 #sec2 {
     background-image: url('imagens/background001.jpg');
     background-size: cover;
     background-attachment: fixed;
+    background-position: top;
+    position: relative;
+    height: 50vw;
+    width: 100vh;
 
-    position: absolute;
-    height: 45vw;
-    width: 100vw;
-
-
+    background-repeat: no-repeat;
 }
 
 #par2{
     color: white;
     background-color: rgba(0, 0, 0, 0.425);
     position: absolute;
-    padding: 5px 10px;
+   
 }
 
-#par3 {}
+#sec4 {
+    background-image: url('imagens/background002.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    position: relative;
+    height: 20vh;
+    width: 100vh;
+
+    background-repeat: no-repeat;
+}
+
+footer {
+    font-family: var(--font-padrao);
+    color: white;
+    background-color: black;
+    font-size: 2.2vh;
+    text-align: center;
+    padding: 9px;
+    text-decoration: none;
+}
+
+footer a {
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
